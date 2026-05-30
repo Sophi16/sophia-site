@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecte-se com a Natureza</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- MENU -->
+    <header>
+        <nav class="navbar">
+            <div class="logo">🌿 Natureza Viva</div>
+
+            <ul class="nav-links">
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#conteudo">Conteúdo</a></li>
+                <li><a href="#galeria">Galeria</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+
+            <div class="hamburger">
+                ☰
+            </div>
+        </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Conecte-se com a Natureza</h1>
+
+            <p>
+                Descubra a beleza dos ecossistemas,
+                preserve o planeta e inspire mudanças positivas.
+            </p>
+
+            <a href="#sobre" class="btn">
+                Explorar
+            </a>
+        </div>
+    </section>
+
+    <!-- SOBRE -->
+    <section id="sobre" class="sobre reveal">
+        <h2>Sobre a Preservação Ambiental</h2>
+
+        <div class="sobre-grid">
+
+            <div class="sobre-card">
+                <span>🌳</span>
+                <h3>Florestas</h3>
+                <p>
+                    As florestas regulam o clima,
+                    produzem oxigênio e abrigam milhares de espécies.
+                </p>
+            </div>
+
+            <div class="sobre-card">
+                <span>💧</span>
+                <h3>Água</h3>
+                <p>
+                    A água é essencial para toda forma de vida
+                    e deve ser utilizada de maneira consciente.
+                </p>
+            </div>
+
+            <div class="sobre-card">
+                <span>🌎</span>
+                <h3>Sustentabilidade</h3>
+                <p>
+                    Pequenas atitudes podem gerar grandes impactos
+                    para as futuras gerações.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- CONTEÚDO -->
+    <section id="conteudo" class="conteudo reveal">
+        <h2>Conheça Mais</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icone">🌳</div>
+                <h3>Florestas</h3>
+                <p>
+                    Protegem a biodiversidade e ajudam a equilibrar o clima.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icone">💧</div>
+                <h3>Recursos Hídricos</h3>
+                <p>
+                    Preservar rios e lagos garante água limpa para todos.
+                </p>
+            </div>
+
+            <div class="card">
+                <div class="icone">🦋</div>
+                <h3>Biodiversidade</h3>
+                <p>
+                    A variedade de espécies mantém os ecossistemas saudáveis.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria" class="galeria reveal">
+
+        <h2>Galeria Natural</h2>
+
+        <div class="gallery-grid">
+
+            <img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e" alt="Floresta">
+
+            <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" alt="Montanhas">
+
+            <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Cachoeira">
+
+            <img src="https://images.unsplash.com/photo-1474511320723-9a56873867b5" alt="Animal">
+
+            <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Oceano">
+
+            <img src="https://images.unsplash.com/photo-1468327768560-75b778cbb551" alt="Flores">
+
+        </div>
+
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="contato reveal">
+
+        <h2>Entre em Contato</h2>
+
+        <form id="contactForm">
+
+            <input
+                type="text"
+                id="nome"
+                placeholder="Seu Nome">
+
+            <input
+                type="email"
+                id="email"
+                placeholder="Seu E-mail">
+
+            <textarea
+                id="mensagem"
+                rows="5"
+                placeholder="Sua Mensagem"></textarea>
+
+            <button type="submit">
+                Enviar
+            </button>
+
+        </form>
+
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+
+        <h3>Natureza Viva</h3>
+
+        <p>
+            Instagram | Facebook | YouTube
+        </p>
+
+        <p>
+            © 2026 Todos os direitos reservados.
+        </p>
+
+    </footer>
+
+    <!-- VOLTAR AO TOPO -->
+    <button id="topBtn">
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
